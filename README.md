@@ -1,0 +1,2 @@
+# Lenovo_R720_Hackintosh
+联想拯救者Lenovo LEGION 2017款R720安装macOS
