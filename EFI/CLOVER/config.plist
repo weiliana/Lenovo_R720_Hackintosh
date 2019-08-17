@@ -4,6 +4,8 @@
 <dict>
 	<key>ACPI</key>
 	<dict>
+		<key>AutoMerge</key>
+		<true/>
 		<key>DSDT</key>
 		<dict>
 			<key>Debug</key>
@@ -128,12 +130,13 @@
 		<array>
 			<string>SSDT-pr.aml</string>
 			<string>SSDT-UIAC.aml</string>
+			<string>SSDT-R720.aml</string>
 		</array>
 	</dict>
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>dart=0 nv_disable=1 -disablegfxfirmware -wegnoegpu lilucpu=8</string>
+		<string>-disablegfxfirmware -wegnoegpu lilucpu=8 darkwake=no</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
@@ -205,7 +208,7 @@
 			<true/>
 		</dict>
 		<key>UseIntelHDMI</key>
-		<true/>
+		<false/>
 	</dict>
 	<key>DisableDrivers</key>
 	<array>
@@ -339,7 +342,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C028341024NJ1JHFB</string>
+		<string>C027203004NJ1JHA8</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -369,16 +372,16 @@
 		<key>ProductName</key>
 		<string>MacBookPro14,3</string>
 		<key>SerialNumber</key>
-		<string>C02X80RHHTD5</string>
+		<string>C02TQAYUHTD5</string>
 		<key>SmUUID</key>
-		<string>57E2C2D1-3251-4F1A-AA54-FC284A7804D4</string>
+		<string>600491B2-19C1-401E-B3E2-DC07E1C3CAB8</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
 		<key>CustomUUID</key>
-		<string>4BCEE5B1-E3E3-40D2-9B66-C3C5D17C68D0</string>
+		<string>888F2E4F-364E-4056-AE60-29CA401037C0</string>
 		<key>InjectKexts</key>
 		<string>Detect</string>
 		<key>InjectSystemID</key>
